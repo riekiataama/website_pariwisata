@@ -1,0 +1,153 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+header{
+    background-color: #B6AE9F;
+    padding: 30px;
+    text-align: center;
+    align-items: left;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+
+header img{
+    width: 50px;
+    margin-right: 20px;
+    height: auto;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+header h2{
+    text-align: left;
+    margin: 0;
+    flex: 1;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+nav{
+    background: #B6AE9F;
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li{
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    padding: 8px 12px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a :hover{
+    background: #C5C7BC;
+    border-radius: 10px;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: #C5C7BC;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+nav ul li ul li {
+    margin: 0;
+    width: 150px;
+}
+
+nav ul li ul li a {
+    padding: 15px;
+    font-weight: normal;
+}
+
+nav ul li:hover ul {
+    display: block;
+    background-color: #C5C7BC;
+    }
+
+.desc{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url('kotatua_bckgrnd.jpeg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.descs{
+    margin: 20px;
+    flex: 4px;
+    width: 180px;
+}
+
+section article{
+    border: 1px solid #DEDED1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #C5C7BC;
+    background-color:#DEDED1;
+}
+
+section h2{
+    text-align: center;
+    text-decoration: double;
+}
+
+h2{
+    text-align: center;
+}
+
+.rec{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.recs{
+    margin: 20px;
+    flex: 3;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 250px;
+}
+
+.flores{
+    background-image: url('labuanbajo3_flores.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.jawatimur{
+    background-image: url('kawahijen2_jatim.jpeg');
+    background-position: center;
+    background-size: cover;
+}
