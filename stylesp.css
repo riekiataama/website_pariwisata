@@ -117,6 +117,54 @@ nav ul li:hover ul {
     width: 180px;
 }
 
+.mflores{
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sflores{
+    margin: 0;
+    flex: 4px;
+    width:930px;
+    border: 3px solid #D6F4ED;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #D6F4ED;
+    background-color:#53629E;
+}
+
+.mjatim{
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sjatim{
+    margin: 0;
+    flex: 4px;
+    width:930px;
+    border: 3px solid #D6F4ED;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #D6F4ED;
+    background-color:#53629E;
+}
+
+.mlombok{
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.slombok{
+    margin: 0;
+    flex: 4px;
+    width:930px;
+    border: 3px solid #D6F4ED;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #D6F4ED;
+    background-color:#53629E;
+}
+
 section article{
     border: 3px solid #D6F4ED;
     border-radius: 10px;
@@ -154,6 +202,10 @@ h2{
     color: white;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
     font-size: 39px;
+}
+
+.h2p{
+    color: #D6F4ED;
 }
 
 .rec{
@@ -228,4 +280,300 @@ footer{
     align-items: center;
     color: #473472;
 }
+
+.labuanbajo{
+    background-image: url('labuanbajo2_flores.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.savanamausui{
+    background-image: url('savanamausui2_flores.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.waerebo{
+    background-image: url('waerebo2_flores.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.kawahijen{
+    background-image: url('kawahijen2_jatim.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.kebunbungahortensia{
+    background-image: url('kebunbungahortensia1_jatim.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.tumpaksewu{
+    background-image: url('tumpaksewu1_jatim.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.gilitrawangan{
+    background-image: url('gilitrawangan1_lombok.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.mandalikacircuit{
+    background-image: url('mandalikacircuit3_lombok.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.pantaitangsi{
+    background-image: url('pantaitangsi1_lombok.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: black;
+    min-width: none;
+    font-weight: bold;
+}
+
+.savanaa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.savanaa img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.waereboa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.waereboa img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.labuana{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.labuana img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.tumpaka{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.tumpaka img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.kawaha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.kawaha img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.kebuna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.kebuna img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.gilia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.gilia img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.mandaa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.mandaa img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.pantaia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    border-image: round;
+    text-align: justify;
+}
+
+.pantaia img{
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+#kontak {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#kontak h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  background: #fff;
+  border: 1px solid #e6eef8;
+  padding: 30px 40px;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  box-shadow: -5px 15px 30px rgba(16,24,40, 0.1);
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-size: 15px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #2b6cb0;
+  box-shadow: 0 0 8px rgba(43, 108, 176, 0.2);
+  outline: none;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: rgba(43, 108, 176, 0.9);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer; 
+  transition:  0.3s, transform 0.2s;
+}
+
+.contact-form button:hover {
+  background: rgba(43, 108, 176, 1);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
 
