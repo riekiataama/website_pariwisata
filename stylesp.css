@@ -4,6 +4,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
     text-decoration: none;
+    background: #FBF3D1;
 
 }
 header{
@@ -14,6 +15,7 @@ header{
     display: flex;
     color: aliceblue;
     justify-content: center;
+    
 }
 
 header img{
@@ -22,6 +24,7 @@ header img{
     height: auto;
     margin: 0;
     padding-bottom: 5px;
+    opacity: 0.1;
 }
 
 header h2{
@@ -29,7 +32,6 @@ header h2{
     margin: 0;
     flex: 1;
     padding-left: 15px;
-    padding-top: 20px;
 }
 
 nav{
@@ -71,11 +73,12 @@ nav ul li ul{
     position: absolute;
     top: 25px;
     left: 0;
-    background: #C5C7BC;
+    background: #B6AE9F;
     list-style: none;
     padding: 0;
     margin: 0;
     border-radius: 5px;
+    margin-top: 25px;
 }
 
 nav ul li ul li {
@@ -87,11 +90,13 @@ nav ul li ul li a {
     padding: 15px;
     font-weight: normal;
     gap: 20px;
+    background:#B6AE9F;
 }
 
 nav ul li:hover ul {
     display: block;
-    background-color: #FBF3D1;
+    background-color: #C5C7BC;
+    color: black;
     }
 
 .desc{
@@ -130,6 +135,13 @@ h2{
 .h2rec{
     text-align: center;
     text-decoration: none;
+    align-items: center;
+    align-content: center;
+}
+
+.h2desc{
+    color: #FBF3D1;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
 .rec{
@@ -143,12 +155,29 @@ h2{
     margin: 0;
     flex: 3;
     display: flex;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
     width: 1000px;
     height: 250px;
+}
+
+.recs article{
+    align-content: center;
+    min-width: 120px;
+    text-align: center;
+}
+
+.recs article a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6,);
+}
+
+p{
+    text-align: center;
 }
 
 .flores{
@@ -158,6 +187,7 @@ h2{
     text-decoration: none;
     color: black;
     min-width: none;
+    font-weight: bold;
 }
 
 .jawatimur{
@@ -167,6 +197,7 @@ h2{
     text-decoration: none;
     color: black;
     min-width: none;
+    font-weight: bold;
 }
 
 .lombok{
@@ -181,7 +212,6 @@ h2{
 
 footer{
     text-align: center;
-    background-color: #B6AE9F;
     line-height: 50px;
     align-items: center;
 }
