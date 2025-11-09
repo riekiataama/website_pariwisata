@@ -4,16 +4,17 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
     text-decoration: none;
-    background: #FBF3D1;
+    background: #D6F4ED;
+    color: white;
 
 }
 header{
-    background-color: #B6AE9F;
+    background-color: #473472;
     padding: 30px;
     text-align: center;
     align-items: left;
     display: flex;
-    color: aliceblue;
+    color: white;
     justify-content: center;
     
 }
@@ -35,7 +36,7 @@ header h2{
 }
 
 nav{
-    background: #B6AE9F;
+    background: #473472;
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -57,15 +58,17 @@ nav ul li{
 nav ul li a{
     padding: 8px 12px;
     display: block;
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    background-color: #473472;
+    border-radius: 4px;
 }
 
 nav ul li a :hover{
-    background: #FBF3D1;
+    background: #473472;
     border-radius: 10px;
-    gap: 30px;
+    gap: 25px;
 }
 
 nav ul li ul{
@@ -73,12 +76,12 @@ nav ul li ul{
     position: absolute;
     top: 25px;
     left: 0;
-    background: #B6AE9F;
+    background: #87BAC3;
     list-style: none;
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 nav ul li ul li {
@@ -90,12 +93,12 @@ nav ul li ul li a {
     padding: 15px;
     font-weight: normal;
     gap: 20px;
-    background:#B6AE9F;
+    background: #87BAC3;
 }
 
 nav ul li:hover ul {
     display: block;
-    background-color: #C5C7BC;
+    background-color: #53629E;
     color: black;
     }
 
@@ -103,7 +106,7 @@ nav ul li:hover ul {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-image: url('kotatua_bckgrnd.jpeg') ;
+    background-image: url('bgwp.jpeg') ;
     background-size: cover;
     background-position: center;
 }
@@ -115,11 +118,11 @@ nav ul li:hover ul {
 }
 
 section article{
-    border: 1px solid #DEDED1;
+    border: 3px solid #D6F4ED;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: #C5C7BC;
-    background-color:#DEDED1;
+    box-shadow: #D6F4ED;
+    background-color:#53629E;
 }
 
 section h2{
@@ -130,6 +133,13 @@ section h2{
 h2{
     text-align: center;
     text-decoration: none;
+    color: #473472;
+}
+
+.h2main{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
 }
 
 .h2rec{
@@ -137,18 +147,20 @@ h2{
     text-decoration: none;
     align-items: center;
     align-content: center;
+    color: #473472;
 }
 
 .h2desc{
-    color: #FBF3D1;
+    color: white;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    font-size: 39px;
 }
 
 .rec{
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #FBF3D1;
+    background-color: #D6F4ED;
 }
 
 .recs{
@@ -214,4 +226,6 @@ footer{
     text-align: center;
     line-height: 50px;
     align-items: center;
+    color: #473472;
 }
+
